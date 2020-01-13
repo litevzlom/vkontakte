@@ -19,7 +19,7 @@
 <!-- Строка с рекламой приложения -->
 		<a class="vk_app_main" href="https://m.vk.com/products">
 		<div class="vk_app">
-			<img class="phone" src="images/phone.png">
+			<img class="phone" src="images/phone.jpg">
 			<div class="phone_text">
 				<b class="phone_text_1">Установить приложение</b>
 				<b class="phone_text_2">ВКонтакте</b>
