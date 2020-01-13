@@ -1,0 +1,231 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+@media (min-width: 240px) and (max-width: 1024px){}
+@media screen and (min-width: 320px){}
+
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+}
+body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: #ebedf0;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.container{
+	width: 100%;
+	min-width: 320px;
+	max-width: 552px;
+ 	height: 100%;
+ 	background-color: #ebedf0;
+}
+/*Строка с рекламой приложения*/
+.vk.app_main{
+	width: 100%;
+	height: 100%;
+}
+.vk_app_main:hover{
+	text-decoration: underline;
+}
+.vk_app{
+	width: 100%;
+	height: 50px;
+	margin-top: 1px;
+	background-color: white;
+	-webkit-box-shadow: 0 0 0 1px #e3e4e8;
+	box-shadow: 0 0 0 1px #e3e4e8;
+	align-items: center;
+	display: flex;
+	color: #5c7994;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+}
+.phone{
+	margin-left: 1em;
+}
+.phone_text{
+	width: 89%;
+}
+.phone_text_1{
+	margin-left: 0.5em;
+	font-weight: 300;
+	letter-spacing: 0px;
+}
+.phone_text_2{
+	margin-left: 1px;
+	font-weight: 600;
+	letter-spacing: 0px;
+}
+.next{
+	margin-right: 1em;
+}
+.next:hover{
+	transform: translateX(3px);
+	transition: 0.2s;
+}
+/*Блок логин/пароль*/
+.log_pass{
+	margin-top: 12px;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	-webkit-box-shadow: 0 0 0 1px #e3e4e8;
+	box-shadow: 0 0 0 1px #e3e4e8;
+	font-family: 'Roboto', sans-serif;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 16px;
+}
+.log_text_1{
+	width: 91%;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 13px 0 4px;
+    line-height: 1.33;
+    color: #5f5f5f;
+	
+}
+.login{
+	padding: 10px 0 0;
+}
+form{
+	width: 91%;
+}
+input{
+	margin-top: 15px;
+	border: 1px solid #caced4;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	width: 100%;
+	outline: none;
+	padding: 9px 10px 11px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	height: 40px;
+}
+.input_password{
+	margin-top: 10px;
+}
+.input_button{
+	margin-top: 20px;
+	color: white;
+	background-color: #5181b8;
+	font-weight: 500;
+	cursor: pointer;
+}
+/*Забыли пароль?*/
+a{
+	color: #306096;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.know_pass:hover{
+	text-decoration: underline;
+}
+/*Впервые в ВКонтакте?*/
+.new_person_main{
+	width: 90%;
+	height: 44px;
+}
+.new_person{
+	margin-top: 24px;
+	font-size: 15px;
+	color: #9fa3a7;
+	display: block;
+}
+.new_acc{
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #4bb34b;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	width: 90%;
+	outline: none;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	height: 40px;
+}
+.facebook{
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3c699c;
+	background-color: white;
+	border: 1px solid #caced4;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	width: 90%;
+	outline: none;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	height: 40px;
+}
+.facebook_logo{
+	margin-top: -2px;
+}
+/*Header*/
+header{
+	display: flex;
+ 	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+ 	width: 100%;
+ 	height: 48px;
+ 	background-color: #5181b8;
+}
+.logo_bar{
+	width: 100%;
+	min-width: 320px;
+	max-width: 552px;
+	height: 100%;
+	background-color: #5181b8;
+}
+
+
+
+/*Ошибка входа*/
+
+.error{
+	margin-top: 10px;
+	width: 100%;
+	height: 100%;
+	background-color: #ffefe9;
+	border: 1px solid #f2ab99;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 1.29;
+	padding: 8px 12px 9px;
+	font-family: 'Segoe UI', sans-serif;
+}
+.error_a{
+    color: #306096;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+}
+.button_vhod{
+	width: 100%;
+	height: 100%;
+}
